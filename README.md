@@ -1,49 +1,45 @@
-# Ai_Travel_planner
-AI Travel Planner for Students
-Overview
+🎒 AI Travel Planner for Students
 
-AI Travel Planner for Students is a Generative AI-based web application that helps students create personalized and budget-friendly travel itineraries.
+An AI-powered web application that generates personalized, budget-friendly travel itineraries for students based on destination, budget, duration, interests, and travel style.
 
-The system generates structured, day-wise travel plans based on user inputs such as destination, budget, number of days, interests, and travel style.
+Built using Streamlit + Google Gemini API, this project focuses on smart, cost-optimized trip planning tailored specifically for student travelers.
 
-The application is built using Python, Streamlit, and Google AI Studio (Gemini API).
+🚀 Features:
 
-Problem Statement:
+🗺️ Personalized day-wise travel itinerary
 
-Travel planning is often time-consuming and expensive, especially for students with limited budgets and fixed schedules.
+💰 Budget-based trip planning
 
-Most travel platforms provide generic recommendations that do not consider financial constraints, trip duration, or individual interests. Students need structured and optimized itineraries that align with their budget and preferences.
+🏨 Accommodation suggestions
 
-This project addresses that gap by generating customized travel plans tailored specifically for students.
+🚇 Cheap transport recommendations
 
-Features:
+🍜 Food and local experience suggestions
 
-Personalized itinerary generation
+📊 Expense breakdown and total budget summary
 
-Budget-based travel planning
+💡 Money-saving travel tips
 
-Day-wise structured schedule
+🎨 Clean and interactive Streamlit UI
 
-Accommodation suggestions
+🧠 Tech Stack:
+Layer	Technology
+💻 Language	Python
+🌐 Frontend	Streamlit
+🤖 AI Model	Google Gemini API
+🛠️ IDE	Visual Studio Code
+⚙️ How It Works
 
-Cheap transport recommendations
+User enters destination, number of days, budget, interests, and travel style.
 
-Daily food suggestions
+Input is converted into a structured prompt.
 
-Expense breakdown and summary
+Prompt is sent to Google Gemini API.
 
-Money-saving travel tips
+AI generates a detailed travel plan.
 
-Tech Stack
+The itinerary is displayed in a structured format in the web interface.
 
-Programming Language: Python
-
-Frontend Framework: Streamlit
-
-Generative AI: Google AI Studio (Gemini API)
-
-Development Environment: Visual Studio Code
-
-How to Run
+▶️ Run Locally
 pip install -r requirements.txt
 streamlit run app.py
